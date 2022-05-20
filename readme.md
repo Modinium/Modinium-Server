@@ -1,2 +1,2 @@
-# OpenForge
-A new and thrilling way to expirience Minecraft mods
+# Modinium Server
+The Server for Modinium (duh).
