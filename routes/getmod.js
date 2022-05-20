@@ -22,7 +22,7 @@ const db = {
     name: 'Mod 2',
     image: 'http://140.238.75.242:3003/images/testmodimage.png',
     id: 2,
-    description: 'Mod 0\'s description',
+    description: 'Mod 2\'s description',
     author: 1,
     versionbucket: 2
   },
