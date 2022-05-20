@@ -1,0 +1,22 @@
+{
+  "name": "modinium-server",
+  "version": "1.0.0",
+  "description": "The Server for Modinium (duh).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Modinium/Modinium-Server.git"
+  },
+  "author": "The Modinium Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Modinium/Modinium-Server/issues"
+  },
+  "homepage": "https://github.com/Modinium/Modinium-Server#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
