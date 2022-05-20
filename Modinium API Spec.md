@@ -1,4 +1,4 @@
-## OpenForge Docs (or whatever)
+## Modinium API Spec
 
 ## Requests and Responses
 
