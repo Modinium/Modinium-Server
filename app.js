@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 fs.readdir('./routes/', (err, files) => {
     files.forEach(file => {
-        app.use(require(file).routePath, require(file))
+        app.use(require('./routes/' + file).routePath, require('./routes/' + file))
     });
 });
 
