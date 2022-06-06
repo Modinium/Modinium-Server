@@ -99,5 +99,5 @@ app.use(
 
 //Listening to our server
 app.listen(5000, () => {
-    console.log("GraphQL server with Express running on localhost:5000/graphql");
+    console.log("GraphQL server with Express running on http://localhost:5000/graphql");
 });
