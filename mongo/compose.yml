@@ -1,0 +1,34 @@
+version: 2
+
+services:
+	mongo1:
+		image: mongo:latest
+		networks:
+			- mongo-modinium-rs
+		ports:
+			- "27021:27017"
+	mongo2:
+		image: mongo:latest
+		networks:
+			- mongo-modinium-rs
+		ports:
+			- "27022:27017"
+	mongo3:
+		image: mongo:latest
+		networks:
+			- mongo-modinium-rs
+		ports:
+			- "27023:27017"
+	mongo-primary:
+		image: mongo:latest
+		depends_on:
+			- mongo1
+			- mongo2
+			- mongo3
+		networks:
+			- mongo-modinium-rs
+		ports:
+			- "27020:27017"
+
+networks:
+	mongo-modinium-rs: {}
