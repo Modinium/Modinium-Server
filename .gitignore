@@ -1,4 +1,5 @@
 node_modules/
 .idea/
+mongo/data/
 
 .env
